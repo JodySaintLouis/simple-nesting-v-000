@@ -30,11 +30,11 @@ def alan_kay_is_known_for
         },
         :alan_kay => {
           :known_for => "Object Orientation",
-          :languages => ["Smalltalk", "LISP"]
+          :languages => {"Smalltalk", "LISP"}
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => {"C"}
         }
      }
 end
@@ -52,7 +52,7 @@ def dennis_ritchies_language
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => {"C"}
         }
      }
 end
